@@ -1,0 +1,22 @@
+
+--- Table: user ---
+('id', 'int', 'NO', 'PRI', None, 'auto_increment')
+('username', 'varchar(80)', 'NO', 'UNI', None, '')
+('email', 'varchar(120)', 'YES', 'UNI', None, '')
+('password_hash', 'varchar(512)', 'YES', '', None, '')
+('created_at', 'datetime', 'YES', '', None, '')
+
+--- Table: user_data ---
+('id', 'int', 'NO', 'PRI', None, 'auto_increment')
+('user_id', 'int', 'NO', 'MUL', None, '')
+('bmi', 'float', 'YES', '', None, '')
+('screen', 'int', 'YES', '', None, '')
+('water', 'int', 'YES', '', None, '')
+('activity', 'int', 'YES', '', None, '')
+('mood', 'int', 'YES', '', None, '')
+('sleep', 'int', 'YES', '', None, '')
+('posture_score', 'int', 'YES', '', None, '')
+('cardio', 'int', 'YES', '', None, '')
+('obesity', 'int', 'YES', '', None, '')
+('hypertension', 'int', 'YES', '', None, '')
+('created_at', 'timestamp', 'YES', '', 'CURRENT_TIMESTAMP', 'DEFAULT_GENERATED')
