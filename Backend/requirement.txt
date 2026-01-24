@@ -7,3 +7,4 @@ pymysql
 opencv-python
 mediapipe
 Werkzeug
+gunicorn
