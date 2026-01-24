@@ -1,5 +1,6 @@
 // src/services/api.js
-const API_BASE_URL = 'http://127.0.0.1:5000';
+const BASE_URL = "https://ai-health-check-with-posture-recognition.onrender.com";
+
 
 export async function login(email, password) {
     try {
