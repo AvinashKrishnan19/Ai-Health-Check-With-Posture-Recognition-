@@ -5,7 +5,7 @@ def get_connection():
         return pymysql.connect(
             host="localhost",
             user="root",
-            password="PASSWORD", # <-- UPDATE THIS with your MySQL password
+            password="Your Password", # <-- UPDATE THIS with your MySQL password
             database="ai_health",
             connect_timeout=2
         )
