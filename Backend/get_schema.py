@@ -9,7 +9,7 @@ def get_schema():
         conn = pymysql.connect(
             host="localhost",
             user="root",
-            password="PASSWORD",
+            password="Your Password",
             database="ai_health"
         )
         cur = conn.cursor()
