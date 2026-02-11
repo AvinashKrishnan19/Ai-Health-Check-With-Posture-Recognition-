@@ -5,7 +5,7 @@ def check_data():
         conn = pymysql.connect(
             host="localhost",
             user="root",
-            password="PASSWORD",
+            password="Your Password",
             database="ai_health"
         )
         cur = conn.cursor(pymysql.cursors.DictCursor)
