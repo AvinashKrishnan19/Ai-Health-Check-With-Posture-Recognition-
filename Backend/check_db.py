@@ -6,7 +6,7 @@ def check_db():
         conn = pymysql.connect(
             host="localhost",
             user="root",
-            password="PASSWORD", # Testing with the password the user set
+            password="Your Password", # Testing with the password the user set
             connect_timeout=2
         )
         print("Success: Connected to MySQL server.")
