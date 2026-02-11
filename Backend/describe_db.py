@@ -5,7 +5,7 @@ def describe_tables():
         conn = pymysql.connect(
             host="localhost",
             user="root",
-            password="PASSWORD",
+            password="",
             database="ai_health"
         )
         cur = conn.cursor()
